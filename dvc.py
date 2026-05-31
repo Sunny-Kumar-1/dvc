@@ -10,5 +10,6 @@ os.makedirs("data",exist_ok=True)
 df = pd.DataFrame(data)
 
 df.loc[len(df.index)] = {"name":"pokash" ,"Age": 23 ,"city":"na"}
+df.loc[len(df.index)] = {"name":"rajat" ,"Age": 33 ,"city":"patna"}
 
 df.to_csv("data/sample.csv",index=False)
